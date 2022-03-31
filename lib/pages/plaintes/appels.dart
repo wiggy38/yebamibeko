@@ -80,7 +80,6 @@ class _AppelsListState extends State<AppelsList> {
             if (libelleTxt.length > 25) {
               libelleShort = libelleTxt.substring(1, 25) + "...";
             }
-
             id = theme['id'];
             //debugPrint("5555555_" + id.toString());
             nomCategorie = theme['nomCategorie'];
